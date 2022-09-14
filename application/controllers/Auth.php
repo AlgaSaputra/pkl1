@@ -101,6 +101,10 @@ class Auth extends CI_Controller
 				'name' => 'identity',
 				'id' => 'identity',
 				'type' => 'text',
+				'class' => 'form-control form-control-lg', 
+                'placeholder'=>'Username',
+        		'aria-label'=>'Username',
+        		'aria-describedby'=>'basic-addon1',
 				'value' => $this->form_validation->set_value('identity'),
 			];
 
@@ -108,6 +112,10 @@ class Auth extends CI_Controller
 				'name' => 'password',
 				'id' => 'password',
 				'type' => 'password',
+				'class' => 'form-control form-control-lg', 
+               	'placeholder'=>'password',
+        		'aria-label'=>'password',
+        		'aria-describedby'=>'basic-addon1',
 			];
 
 			$this->_render_page('auth' . DIRECTORY_SEPARATOR . 'login', $this->data);
