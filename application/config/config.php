@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/projekPkl/'; //base url untuk local AGA
-// $config['base_url'] = '192.168.25.5/pkl1'; //base url untuk server
+// $config['base_url'] = 'http://localhost/projekPkl/'; //base url untuk local AGA
+$config['base_url'] = 'http://103.156.71.7/pkl1'; //base url untuk server
 
 /*
 |--------------------------------------------------------------------------
@@ -36,7 +36,7 @@ $config['base_url'] = 'http://localhost/projekPkl/'; //base url untuk local AGA
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
