@@ -1,4 +1,6 @@
 </div>
+</div>
+</div>
 <footer class="footer text-center">
           All Rights Reserved by Matrix-admin. Designed by
           <a href="https://www.wrappixel.com">WrapPixel</a> and Developed by Ardias.
